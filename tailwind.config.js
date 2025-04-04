@@ -1,0 +1,17 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily:{
+        sans:['Lexend Giga',' sans-serif'],
+        kameron:['Kameron','serif'],
+        mono:['Montserrat','sans-serif']
+      }
+    },
+  },
+  plugins: [],
+}
