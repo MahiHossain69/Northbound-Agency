@@ -10,7 +10,10 @@ export default {
         sans:['Lexend Giga',' sans-serif'],
         kameron:['Kameron','serif'],
         mono:['Montserrat','sans-serif']
-      }
+      },
+      screens:{
+        'xs': {'min': '374px', 'max': '639px'},
+       },
     },
   },
   plugins: [],
